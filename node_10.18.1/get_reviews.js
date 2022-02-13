@@ -50,7 +50,7 @@
   				Handler: "get_reviews_code.handler",
   				Publish: true, 
   				Role: ROLE_NAME_STR, 
-  				Runtime: "nodejs10.x"
+  				Runtime: "nodejs14.x"
  			};
  		return LAMBDA.createFunction(params).promise();
 	}
